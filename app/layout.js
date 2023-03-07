@@ -1,14 +1,20 @@
 "use client";
 import Link from "next/link";
+import { useRouter } from 'next/navigation';
 import { useState } from "react";
 import "./globals.css";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }) {  
+  const router = useRouter()
   const [modal, setModal] = useState("hidden");
-
   const clickModal = () => {
     setModal(modal == "hidden" ? "" : "hidden");
   };
+
+  const clickLogin = () => {
+    setModal('hidden')
+    router.push('/penerima')
+  }
   return (
     <html lang="en">
       <body>
@@ -69,20 +75,29 @@ export default function RootLayout({ children }) {
                 </div>
                 <div class="p-6 space-y-6">
                   <div>
-                    <input type="text" className="border p-1 w-full" placeholder="Email" />
+                    <input
+                      type="text"
+                      className="border p-1 w-full"
+                      placeholder="Email"
+                    />
                   </div>
                   <div>
-                    <input type="password" className="border p-1 w-full" placeholder="Password" />
+                    <input
+                      type="password"
+                      className="border p-1 w-full"
+                      placeholder="Password"
+                    />
                   </div>
                 </div>
                 <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                  <button
-                    data-modal-hide="defaultModal"
-                    type="button"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  >
-                    Login
-                  </button>
+                    <button
+                      data-modal-hide="defaultModal"
+                      type="button"                      
+                      onClick={clickLogin}
+                      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Login
+                    </button>
                   <button
                     data-modal-hide="defaultModal"
                     type="button"
