@@ -2,12 +2,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import React from "react";
+import React, { useState } from "react";
 
 function Home() {
+  const [email, setEmail] = useState()
+  const [password, setPassword] = useState()
   const router = useRouter()
   const clickLogin = () => {
-    router.push('/bantuan')
+    if ((email != 'admin@gmail.com') || (password != '123456')) {
+      alert('Email atau password salah')
+    } else {
+      router.push('/bantuan')
+    }
   }  
   return (
     <>
@@ -26,6 +32,7 @@ function Home() {
                 type="text"
                 className="border p-1 w-full"
                 placeholder="Email"
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div>
@@ -33,6 +40,7 @@ function Home() {
                 type="password"
                 className="border p-1 w-full mt-1"
                 placeholder="Password"
+                onChange={(e) => setPassword(e.target.value)}
               />
             </div>
             <button
