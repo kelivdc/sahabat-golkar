@@ -13,12 +13,13 @@ export default function RootLayout({ children }) {
 
   const clickLogin = () => {
     setModal('hidden')
-    router.push('/penerima')
+    router.push('/home')
   }
   return (
     <html lang="en">
+      <title>Sahabat Golkar</title>
       <body>
-        <div className="bg-[#025f39c4] max-w-screen md:max-w-[65vw] text-white py-2 px-4 sticky top-0 left-0 z-40 w-full h-10 items-center m-auto">
+        {/* <div className="bg-[#025f39c4] max-w-screen md:max-w-[65vw] text-white py-2 px-4 sticky top-0 left-0 z-40 w-full h-10 items-center m-auto">
           <div class="container flex flex-wrap items-center justify-between mx-auto">
             <div className="flex justify-between">
               <div className="px-2 hover:bg-green-500 hover:rounded-md ">
@@ -35,7 +36,7 @@ export default function RootLayout({ children }) {
               Login
             </div>
           </div>
-        </div>
+        </div> */}
         {children}
         <div className={modal}>
           <div className="absolute w-full top-0 left-0 h-screen bg-gray-700 opacity-80 z-40" />

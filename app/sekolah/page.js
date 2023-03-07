@@ -4,10 +4,10 @@ import React from "react";
 import HeaderNav from "@/components/HeaderNav";
 
 export const metadata = {
-  title: "Penerima Bantuan UMKM",
+  title: "Penerima Bantuan Sekolah",
 };
 
-function Penerima() {
+function Sekolah() {
   return (
     <>
       <div className="max-w-screen md:max-w-[65vw] m-auto min-h-[92vh] md:min-h-[99vh] relative bg-gradient-to-b from-white to-yellow-500 p-4">
@@ -20,7 +20,7 @@ function Penerima() {
             <h1 className="text-xl md:text-[40px] md:font-bold leading-10">
               DATA PENERIMA
               <br />
-              BANTUAN UMKM
+              BANTUAN SEKOLAH
             </h1>
           </div>
         </div>
@@ -103,4 +103,4 @@ function Penerima() {
   );
 }
 
-export default Penerima;
+export default Sekolah;
