@@ -25,12 +25,12 @@ function Home() {
           <div className="absolute top-3 right-10 p-1 hover:bg-green-400 hover:rounded-md">            
             <Link href="/">Home</Link>
           </div>
-          <div className="w-[200px] bg-white absolute top-3 left-10 p-2 shadow-md">            
+          <div className="w-[200px] bg-green-600 absolute top-2 left-10 p-2 text-white font-bold rounded-md ">            
             <div>
               Login
               <input
                 type="text"
-                className="border p-1 w-full"
+                className="p-1 w-full bg-red-300 mt-2 rounded-md"
                 placeholder="Email"
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -38,7 +38,7 @@ function Home() {
             <div>
               <input
                 type="password"
-                className="border p-1 w-full mt-1"
+                className="border p-1 w-full mt-1 rounded-md"
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
               />
