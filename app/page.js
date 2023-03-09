@@ -16,15 +16,8 @@ export default function Home() {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     </Head>
-      <div className="max-w-screen md:max-w-[1024px] m-auto min-h-[90vh] md:min-h-screen relative">
-        <div className="rounded-[50px] md:rounded-[105px] min-h-[91vh] md:min-h-[97vh] text-gray-600 m-auto grid place-items-center">
-          <div className="relative w-full h-72 md:h-[100vh] cursor-pointer" onClick={() => router.push('/home')}>
-            <Image src="/1.png" fill alt="Logo" />
-          </div>
-        </div>
-        {/* <div className="relative w-full h-72 md:h-[100vh]">
-          <Image src="/2.png" fill alt="Mari Berkarya" />
-        </div> */}
+      <div className="max-w-screen m-auto relative items-center grid place-content-center">
+        <img src="/1.png" className="object-fill h-screen cursor-pointer" onClick={() => router.push('/home')} />
       </div>
     </>
   );

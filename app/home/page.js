@@ -17,11 +17,9 @@ function Home() {
   }  
   return (
     <>
-      <div className="max-w-screen md:max-w-[1024px] m-auto min-h-[90vh] md:min-h-screen relative">
+      <div className="max-w-screen m-auto relative items-center grid place-content-center">
         <div className="min-h-[91vh] md:min-h-[97vh] text-gray-600 m-auto grid place-items-center relative">
-          <div className="relative w-full h-72 md:h-[100vh] cursor-pointer">
-            <Image src="/2.png" fill alt="Home" />
-          </div>
+            <img src="/2.png" className="object-fill h-screen" />
           <div className="absolute top-3 right-10 p-1 hover:bg-green-400 hover:rounded-md">            
             <Link href="/">Home</Link>
           </div>
