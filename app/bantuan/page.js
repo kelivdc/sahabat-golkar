@@ -18,7 +18,7 @@ function Bantuan() {
           </h1>
         </div>
       </div>
-      <div class="grid h-[500px] place-items-center">
+      <div className="grid h-[500px] place-items-center">
         <div className="m-auto leading-10">
           <Link href="/penerima">
             <div className="py-1 px-[150px] my-4 bg-white text-center rounded-2xl text-green-700 hover:bg-green-700 hover:text-white">

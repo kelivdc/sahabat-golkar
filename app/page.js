@@ -13,6 +13,8 @@ export default function Home() {
     <>      
     <Head>
       <title>Sahabat Golkar</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     </Head>
       <div className="max-w-screen md:max-w-[1024px] m-auto min-h-[90vh] md:min-h-screen relative">
         <div className="rounded-[50px] md:rounded-[105px] min-h-[91vh] md:min-h-[97vh] text-gray-600 m-auto grid place-items-center">

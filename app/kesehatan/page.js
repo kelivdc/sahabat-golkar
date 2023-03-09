@@ -25,7 +25,7 @@ function Kesehatan() {
           </div>
         </div>
         <div className="mt-4">
-          <table class="w-full border-2 border-white" cellPadding="2" cellSpacing="2">
+          <table className="w-full border-2 border-white" cellPadding="2" cellSpacing="2">
             <thead className="bg-blue-400">
               <tr>
                 <th width="5%">No</th>
