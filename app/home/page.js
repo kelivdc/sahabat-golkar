@@ -28,7 +28,7 @@ function Home() {
               Login
               <input
                 type="text"
-                className="p-1 w-full bg-red-300 mt-2 rounded-md"
+                className="p-1 w-full text-gray-600 mt-2 rounded-md  bg-white outline-none"
                 placeholder="Email"
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -36,7 +36,7 @@ function Home() {
             <div>
               <input
                 type="password"
-                className="border p-1 w-full mt-1 rounded-md"
+                className="border p-1 w-full mt-1 rounded-md text-gray-600 bg-white  outline-none"
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
               />
