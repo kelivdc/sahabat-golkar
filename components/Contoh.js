@@ -21,64 +21,29 @@ function Contoh() {
       <tbody>
         <tr className="rowColor">
           <td className="tcell text-right">1</td>
-          <td className="tcell">Januar</td>
-          <td className="tcell">1234456567687</td>
-          <td className="tcell">Jl. Bahari 9 no.12</td>
-          <td className="tcell">Bengkel Sepeda</td>
+          <td className="tcell">Sri Sobarni</td>
+          <td className="tcell">3271046402710002</td>
+          <td className="tcell">Jl. Menteng, Gg. Pala No.8 Rt.003/002 Kelurahan Menteng, Kecamatan Bogor Barat Kota Bogor</td>
+          <td className="tcell">Pedagang Kue Basah</td>
           <td className="tcell">
             <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
+              <Image src="/bantuan-1.jpg" fill alt="Bantuan" />
             </div>
           </td>
         </tr>
         <tr className="rowColor">
           <td className="tcell text-right">2</td>
-          <td className="tcell">Mulyati</td>
-          <td className="tcell">1234456567687</td>
-          <td className="tcell">Jl. Siliwangi III no.60 </td>
-          <td className="tcell">Toko Kueh</td>
+          <td className="tcell">Nellyani Boru Sipayung</td>
+          <td className="tcell">3271045810840016</td>
+          <td className="tcell">Jl. Komplek IPB 1 Rt.004/008 Kelurahan Loji, Kecamatan Bogor Barat Kota Bogor</td>
+          <td className="tcell">Pedagang Kelontongan</td>
           <td className="tcell">
             <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
+              <Image src="/bantuan-2.jpg" fill alt="Bantuan" />
             </div>
           </td>
         </tr>
-        <tr className="rowColor">
-          <td className="tcell text-right">3</td>
-          <td className="tcell">Wisnu</td>
-          <td className="tcell">1234456567687</td>
-          <td className="tcell">Komp. Perdamaian Blok IX</td>
-          <td className="tcell">TK Islam</td>
-          <td className="tcell">
-            <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
-            </div>
-          </td>
-        </tr>
-        <tr className="rowColor">
-          <td className="tcell text-right">4</td>
-          <td className="tcell">Pramudi</td>
-          <td className="tcell">1234456567687</td>
-          <td className="tcell">Jl. Wisata/IV no.20</td>
-          <td className="tcell">Toko Sembako</td>
-          <td className="tcell">
-            <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
-            </div>
-          </td>
-        </tr>
-        <tr className="rowColor">
-          <td className="tcell text-right">5</td>
-          <td className="tcell">Hilman</td>
-          <td className="tcell">1234456567687</td>
-          <td className="tcell">Jl. Belawan I no.25</td>
-          <td className="tcell">Toko Sembako</td>
-          <td className="tcell">
-            <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
-            </div>
-          </td>
-        </tr>
+       
       </tbody>
     </table>
   );
