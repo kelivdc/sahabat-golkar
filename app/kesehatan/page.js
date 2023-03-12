@@ -34,68 +34,7 @@ function Kesehatan() {
                 <th>Photo</th>
               </tr>
             </thead>
-            <tbody>
-              <tr className="rowColor">
-                <td className="tcell text-right">1</td>
-                <td className="tcell">Alex Sanusi</td>
-                <td className="tcell">Desa Kuningan</td>
-                <td className="tcell">
-                  <div className="relative rounded-full w-10 h-10 m-auto">
-                  <Image src="/bantuan.jpg" fill alt="Bantuan" />
-                  </div>
-                </td>
-              </tr>
-              <tr className="rowColor">
-                <td className="tcell text-right">2</td>
-                <td className="tcell">Sutarji</td>
-                <td className="tcell">Desa Kuningan</td>
-                <td className="tcell">
-                  <div className="relative rounded-full w-10 h-10 m-auto">
-                  <Image src="/bantuan.jpg" fill alt="Bantuan" />
-                  </div>
-                </td>
-              </tr>
-              <tr className="rowColor">
-                <td className="tcell text-right">3</td>
-                <td className="tcell">Dansir</td>
-                <td className="tcell">Desa Kuningan</td>
-                <td className="tcell">
-                  <div className="relative rounded-full w-10 h-10 m-auto">
-                  <Image src="/bantuan.jpg" fill alt="Bantuan" />
-                  </div>
-                </td>
-              </tr>
-              <tr className="rowColor">
-                <td className="tcell text-right">4</td>
-                <td className="tcell">Walijah</td>
-                <td className="tcell">Desa Kuningan</td>
-                <td className="tcell">
-                  <div className="relative rounded-full w-10 h-10 m-auto">
-                  <Image src="/bantuan.jpg" fill alt="Bantuan" />
-                  </div>
-                </td>
-              </tr>
-              <tr className="rowColor">
-                <td className="tcell text-right">5</td>
-                <td className="tcell">Karto</td>
-                <td className="tcell">Desa Kuningan</td>
-                <td className="tcell">
-                  <div className="relative rounded-full w-10 h-10 m-auto">
-                  <Image src="/bantuan.jpg" fill alt="Bantuan" />
-                  </div>
-                </td>
-              </tr>
-              <tr className="rowColor">
-                <td className="tcell text-right">6</td>
-                <td className="tcell">Walangsi</td>
-                <td className="tcell">Desa Kuningan</td>
-                <td className="tcell">
-                  <div className="relative rounded-full w-10 h-10 m-auto">
-                  <Image src="/bantuan.jpg" fill alt="Bantuan" />
-                  </div>
-                </td>
-              </tr>
-            </tbody>
+           
           </table>
         </div>
       </div>

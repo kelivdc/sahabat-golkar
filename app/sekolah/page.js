@@ -41,70 +41,34 @@ function Penerima() {
           <th>Nama Siswa</th>
           <th>Alamat</th>
           <th>Asal Sekolah</th>
-          <th>Photo Usaha</th>
+          <th>Photo</th>
         </tr>
       </thead>
       <tbody>
         <tr className="rowColor">
           <td className="tcell text-right">1</td>
-          <td className="tcell">Januar</td>
-          <td className="tcell">Pratiwi</td>
-          <td className="tcell">Jl. Bahari 9 no.12</td>
-          <td className="tcell">SDN Pucung 9</td>
+          <td className="tcell">Sopian</td>
+          <td className="tcell">Balqish Shira Triutami</td>
+          <td className="tcell">Dramaga Caringin No.44 Rt.001/006 Kelurahan Margajaya Kecamatan Bogor Barat Kota Bogor</td>
+          <td className="tcell">SMP Negeri 1 Dramaga</td>
           <td className="tcell">
             <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
+              <Image src="/sekolah-1.jpg" fill alt="Bantuan" />
             </div>
           </td>
         </tr>
         <tr className="rowColor">
           <td className="tcell text-right">2</td>
-          <td className="tcell">Mulyati</td>
-          <td className="tcell">Surya Purnomo</td>
-          <td className="tcell">Jl. Siliwangi III no.60 </td>
-          <td className="tcell">SMP N 13</td>
+          <td className="tcell">Yuliawati </td>
+          <td className="tcell">Rabbil Nur Syafa</td>
+          <td className="tcell">Jl. Bhayangkara II Gg. Selakopi 2 No.9 Rt.002/003 Sindangbarang, Kecamatan Bogor Barat Kota Bogor</td>
+          <td className="tcell">SMP Negeri 14 Bogor</td>
           <td className="tcell">
             <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
+              <Image src="/sekolah-2.jpg" fill alt="Bantuan" />
             </div>
           </td>
-        </tr>
-        <tr className="rowColor">
-          <td className="tcell text-right">3</td>
-          <td className="tcell">Wisnu</td>
-          <td className="tcell">Khasim Yuda</td>
-          <td className="tcell">Komp. Perdamaian Blok IX</td>
-          <td className="tcell">SDN Pagi 9</td>
-          <td className="tcell">
-            <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
-            </div>
-          </td>
-        </tr>
-        <tr className="rowColor">
-          <td className="tcell text-right">4</td>
-          <td className="tcell">Pramudi</td>
-          <td className="tcell">Suci Mentari</td>
-          <td className="tcell">Jl. Wisata/IV no.20</td>
-          <td className="tcell">SDN 10</td>
-          <td className="tcell">
-            <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
-            </div>
-          </td>
-        </tr>
-        <tr className="rowColor">
-          <td className="tcell text-right">5</td>
-          <td className="tcell">Hilman</td>
-          <td className="tcell">Khadijah</td>
-          <td className="tcell">Jl. Belawan I no.25</td>
-          <td className="tcell">SDN 34</td>
-          <td className="tcell">
-            <div className="relative rounded-full w-10 h-10 m-auto">
-              <Image src="/bantuan.jpg" fill alt="Bantuan" />
-            </div>
-          </td>
-        </tr>
+        </tr>       
       </tbody>
     </table>
       </div>
