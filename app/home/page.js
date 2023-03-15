@@ -19,7 +19,7 @@ function Home() {
     <>
       <div className="max-w-screen m-auto relative items-center grid place-content-center">
         <div className="min-h-[91vh] md:min-h-[97vh] text-gray-600 m-auto grid place-items-center relative">
-            <img src="/2.png" className="object-fill h-screen" />
+            <img src="/2.png" className="object-fill h-screen" loading="lazy" />
           <div className="absolute top-3 right-10 p-1 hover:bg-green-400 hover:rounded-md">            
             <Link href="/">Home</Link>
           </div>
