@@ -21,6 +21,7 @@ export default function Home() {
           src="/1.png"
           className="object-fill h-screen cursor-pointer"
           onClick={() => router.push("/home")}
+          loading="lazy"
         />
       </div>
     </>
