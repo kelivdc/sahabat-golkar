@@ -9,8 +9,8 @@ function Home() {
   const [password, setPassword] = useState()
   const router = useRouter()
   const clickLogin = () => {
-    if ((email != 'admin@gmail.com') || (password != '123456')) {
-      alert('Email atau password salah')
+    if ((email != 'rusli') || (password != 'majubersama')) {
+      alert('Username atau password salah')
     } else {
       router.push('/bantuan')
     }
@@ -21,22 +21,22 @@ function Home() {
         <div className="min-h-[91vh] md:min-h-[97vh] text-gray-600 m-auto grid place-items-center relative">
             <img src="/2.png" className="object-fill h-screen" loading="lazy" />
           <div className="absolute top-3 right-10 p-1 hover:bg-green-400 hover:rounded-md">            
-            <Link href="/">Home</Link>
+            <Link href="/">Logout</Link>
           </div>
           <div className="w-[200px] bg-green-600 absolute top-2 left-10 p-2 text-white font-bold rounded-md ">            
             <div>
               Login
               <input
                 type="text"
-                className="p-1 w-full text-gray-600 mt-2 rounded-md  bg-white outline-none"
-                placeholder="Email"
+                className="p-1 w-full text-gray-600 mt-2 rounded-md  bg-white outline-none font-normal"
+                placeholder="Username"
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div>
               <input
                 type="password"
-                className="border p-1 w-full mt-1 rounded-md text-gray-600 bg-white  outline-none"
+                className="border p-1 w-full mt-1 rounded-md text-gray-600 bg-white  outline-none font-normal"
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
               />
