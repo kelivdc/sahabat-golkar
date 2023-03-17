@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <div className="m-auto relative min-h-screen md:max-w-[65vw] bg-gradient-to-b from-white to-yellow-300">
-        <div className="pt-10">
+        <div className="pt-5">
           <Image src="/logo-white-blur2.png" fill />
           <Link href="/home">
             <div className="items-center mx-auto z-30 hover:invert-[.25] hover:cursor-pointer relative w-[250px] h-[200px]">
@@ -25,8 +25,10 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        <div className="z-20 flex space-x-2 justify-between w-full py-5">
-          <div className="z-20">
+        <div className="z-20 flex space-x-2 justify-between w-full py-5 relative h-[430px]">
+          <Image src="/3orang.png" fill />
+        </div>
+          {/* <div className="z-20">
             <Image src="/photo1.png" width={300} height={300} />
             <div className="bg-green-800 text-white w-full p-3 rounded-xl text-center">
               <div className="text-xl">
@@ -58,8 +60,8 @@ export default function Home() {
               </div>
               <div className="">Ketua Partai Golkar Kota Bogor</div>
             </div>
-          </div>
-        </div>        
+          </div> */}
+        
       </div>
     </>
   );
