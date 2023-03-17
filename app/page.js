@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sahabat Golkarz</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
