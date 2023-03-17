@@ -3,7 +3,7 @@ import React from 'react'
 function Head() {
   return (
     <>
-        <title>Sahabat Golkar</title>
+        <title>Sahabat Golkarz</title>
         <meta name="robots" content="index" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
