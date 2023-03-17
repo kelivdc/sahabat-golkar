@@ -56,7 +56,7 @@ function Bantuan() {
         </div>
         <div className="w-2/3">
           <div className="grid content-center h-full relative">
-            <Link href="/"><div className="absolute top-0 right-0 hover:bg-green-400 hover:rounded-md px-2 py-1">Home</div></Link>
+            <Link href="/"><div className="absolute top-0 right-0 hover:bg-green-400 hover:rounded-md px-2 py-1">Logout</div></Link>
             <h1 className="text-xl md:text-[40px] md:font-bold text-center m-auto">
               BANTUAN DAN PELAYANAN
             </h1>
