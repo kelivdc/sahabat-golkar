@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sahabat Golkar</title>
+        <title>Sahabat Golkarz</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        <div className="z-20 flex space-x-2 justify-between w-full py-5 relative h-[430px]">
+        <div className="z-20 flex space-x-2 justify-between w-full py-5 relative h-[445px]">
           <Image src="/3orang.png" fill />
         </div>
           {/* <div className="z-20">
