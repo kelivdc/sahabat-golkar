@@ -4,11 +4,33 @@ import React from "react";
 import HeaderNav from "@/components/HeaderNav";
 import Contoh from "@/components/Contoh";
 
+export async function getServerSideProps() {
+  // Set up the headers object
+  
+}
+
 export const metadata = {
   title: "Data Penerima Bantuan Sekolah",
 };
 
-function Penerima() {
+function Penerima() {  
+  const headers = {
+    'Authorization': 'Token e6b668c51a38a488d21c3752f7b41009fd9ebe12',
+    'Content-Type': 'application/json'
+  }
+
+  // Fetch data from API with headers
+  const res = await fetch('https://kf.kobo.mangdarma.com/api/v2/assets/aJM7yn6LQLi4qwBe2Ua2kb/data.json', {
+    headers
+  })
+  const data = await res.json()
+
+  // Return the data as props
+  return {
+    props: {
+      data
+    }
+  }
   return (
     <>
        <div className="flex flex-col max-w-screen md:max-w-[65vw] m-auto min-h-screen relative max-h-screen bg-gradient-to-b from-white to-yellow-500 px-4 pt-4">
@@ -17,6 +39,7 @@ function Penerima() {
           <Image src="/logo.png" width={270} height={270} alt="Logo" />
         </div>
         <div className="w-2/3">
+          {data}
           <div className="grid content-center h-full relative">
             <div className="absolute top-0 right-0 flex">
               <Link href="/"><div className="hover:bg-green-400 hover:rounded-md px-2 py-1">Home</div></Link>
