@@ -3,9 +3,9 @@ import Link from "next/link";
 import React from "react";
 
 function Bantuan() {
-  return (   
+  return (
 
-    <div className="flex flex-col max-w-screen md:max-w-[65vw] m-auto min-h-screen relative bg-gradient-to-b from-white to-yellow-500 px-4 pt-4">
+    <div className="flex flex-col max-w-screen md:max-w-[85vw] m-auto min-h-screen relative bg-gradient-to-b from-white to-yellow-500 px-4 pt-4">
       <div className="flex justify-between">
         <div className="w-1/3">
           <Image src="/logo.png" width={270} height={270} alt="Logo" />
