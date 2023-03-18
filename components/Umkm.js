@@ -67,6 +67,22 @@ function Umkm() {
       jenis: "Makanan",
       image: "/bantuan-7.jpeg" 
     },
+    {
+      nama: "Suryanto",
+      nik: "3271022007710008",
+      alamat:
+        "Ciheuleut RT 02 RW 09 Kel Baranangsiang Kec Bogor Timur",
+      jenis: "Kelontong",
+      image: "/bantuan-9.png" 
+    },
+    {
+      nama: "Yati",
+      nik: "-",
+      alamat:
+        "Kp Mandala RT 02 RW 02 Kelurahan Ciparigi Kecamatan Bogor Utara",
+      jenis: "Kelontong",
+      image: "/bantuan-10.jpeg" 
+    },
    
   ];
   return (

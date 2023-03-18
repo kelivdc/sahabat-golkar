@@ -17,7 +17,7 @@ function Sekolah() {
       alamat:
         "Dramaga Caringin No.44 Rt.001/006 Kelurahan Margajaya Kecamatan Bogor Barat Kota Bogor",
       sekolah: "SMP Negeri 1 Dramaga",
-      image: "/sekolah-2.jpg" 
+      image: "/sekolah-2a.jpeg" 
     },  
     {
       ortu: "Nur Fitriani",
@@ -25,7 +25,7 @@ function Sekolah() {
       alamat:
         "Kp. Cipaku Haji Rt.003/007 Kelurahan Cipaku, Kecamatan Bogor Selatan Kota Bogor",
       sekolah: "SD Sukasari",
-      image: "/sekolah-3.jpg" 
+      image: "/sekolah-3a.jpeg" 
     },
     {
       ortu: "Yayah Ratnasari",
@@ -66,6 +66,22 @@ function Sekolah() {
         "Jl Mantarena No 14 RT 02 RW 03 Kel Panaragan Kec Bogor Tengah",
       sekolah: "SDN Panaragan 2",
       image: "/sekolah-8.png" 
+    },   
+    {
+      ortu: "Deni Nugraha",
+      siswa: "Lisna",
+      alamat:
+        "Kp Sumurwangi RT 05 RW 07 Kel Kayumanis Kec Tanah Sereal",
+      sekolah: "SMAN 2 Kota Bogor",
+      image: "/sekolah-9.jpeg" 
+    },   
+    {
+      ortu: "Sutini",
+      siswa: "Rasya",
+      alamat:
+        "Kp Munjul RT 02 RW 05 Kel Kayumanis Kec Tanah Sereal",
+      sekolah: "SMPN 16 Kota Bogor",
+      image: "/sekolah-10.jpeg" 
     },         
   ];
   return (

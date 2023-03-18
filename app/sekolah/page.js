@@ -12,7 +12,7 @@ export const metadata = {
 function Penerima() {    
   return (
     <>
-       <div className="flex flex-col max-w-screen md:max-w-[85vw] m-auto min-h-screen relative max-h-screen bg-gradient-to-b from-white to-yellow-500 px-4 pt-4">
+       <div className="flex flex-col max-w-screen md:max-w-[85vw] m-auto min-h-screen relative bg-gradient-to-b from-white to-yellow-500 px-4 pt-4">
       
       <div className="flex justify-between">
         <div className="w-1/3">
