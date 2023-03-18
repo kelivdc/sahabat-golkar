@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        <div className="z-20 flex space-x-2 justify-between w-full py-5 relative h-[445px]">
+        <div className="z-20 flex space-x-2 justify-between w-full py-5 relative h-[465px]">
           <Image src="/3orang.png" fill />
         </div>
           {/* <div className="z-20">
