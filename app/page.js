@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
-      <div className="m-auto relative min-h-screen md:max-w-[65vw] bg-gradient-to-b from-white to-yellow-300">
+      <div className="m-auto relative min-h-screen md:max-w-[85vw] bg-gradient-to-b from-white to-yellow-300">
         <div className="pt-5">
           <Image src="/logo-white-blur2.png" fill />
           <Link href="/home">
@@ -60,7 +60,7 @@ export default function Home() {
               <div className="">Ketua Partai Golkar Kota Bogor</div>
             </div>
           </div> */}
-        
+
       </div>
     </>
   );
