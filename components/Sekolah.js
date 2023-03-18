@@ -9,23 +9,23 @@ function Sekolah() {
       alamat:
         "Jl. Bhayangkara II Gg. Selakopi 2 No.9 Rt.002/003 Sindangbarang, Kecamatan Bogor Barat Kota Bogor",
       sekolah: "SMP Negeri 14 Bogor",
-      image: "/sekolah-1.jpg" 
-    },  
+      image: "/sekolah-1.jpg"
+    },
     {
       ortu: "Sopian",
       siswa: "Balqish Shira Triutami",
       alamat:
         "Dramaga Caringin No.44 Rt.001/006 Kelurahan Margajaya Kecamatan Bogor Barat Kota Bogor",
       sekolah: "SMP Negeri 1 Dramaga",
-      image: "/sekolah-2a.jpeg" 
-    },  
+      image: "/sekolah-2a.jpeg"
+    },
     {
       ortu: "Nur Fitriani",
       siswa: "Annisa Deda Ayundia",
       alamat:
         "Kp. Cipaku Haji Rt.003/007 Kelurahan Cipaku, Kecamatan Bogor Selatan Kota Bogor",
       sekolah: "SD Sukasari",
-      image: "/sekolah-3a.jpeg" 
+      image: "/sekolah-3a.jpeg"
     },
     {
       ortu: "Yayah Ratnasari",
@@ -33,56 +33,56 @@ function Sekolah() {
       alamat:
         "RT 03 RW 10 Kelurahan Ciparigi Kecamatan Bogor Utara",
       sekolah: "SMPN 15 Kota Bogor",
-      image: "/sekolah-4.jpeg" 
-    },   
+      image: "/sekolah-4.jpeg"
+    },
     {
       ortu: "Siti Nasirah",
       siswa: "Intan Nur Anriyani",
       alamat:
         "Jl Otista II kebon kelapa no 3 RT 03 RW 01 Kel Baranangsiang Kec Bogor Tengah",
       sekolah: "SMAN 1 BOGOR",
-      image: "/sekolah-5.png" 
-    },  
+      image: "/sekolah-5.png"
+    },
     {
       ortu: "Kiki Kisnawati",
       siswa: "Fachri Rachman",
       alamat:
         "Jl Pakoah Blk no 119 RT 02 RW 11 kel Baranangsiang Kec Bogor Tengah",
       sekolah: "SMPN 3 Bogor",
-      image: "/sekolah-6.png" 
-    },  
+      image: "/sekolah-6.png"
+    },
     {
       ortu: "Kartika",
       siswa: "Aisha Nayla Triasti",
       alamat:
         "Kalibata RT 03 RW 11 Kel Bantarjati kec Bogor Utara",
       sekolah: "SMPN 20 Bogor",
-      image: "/sekolah-7.jpeg" 
-    },  
+      image: "/sekolah-7.jpeg"
+    },
     {
       ortu: "Youlla Wigyanti",
       siswa: "Galant MS",
       alamat:
         "Jl Mantarena No 14 RT 02 RW 03 Kel Panaragan Kec Bogor Tengah",
       sekolah: "SDN Panaragan 2",
-      image: "/sekolah-8.png" 
-    },   
+      image: "/sekolah-8.png"
+    },
     {
       ortu: "Deni Nugraha",
       siswa: "Lisna",
       alamat:
         "Kp Sumurwangi RT 05 RW 07 Kel Kayumanis Kec Tanah Sereal",
       sekolah: "SMAN 2 Kota Bogor",
-      image: "/sekolah-9.jpeg" 
-    },   
+      image: "/sekolah-9.jpeg"
+    },
     {
       ortu: "Sutini",
       siswa: "Rasya",
       alamat:
         "Kp Munjul RT 02 RW 05 Kel Kayumanis Kec Tanah Sereal",
       sekolah: "SMPN 16 Kota Bogor",
-      image: "/sekolah-10.jpeg" 
-    },         
+      image: "/sekolah-10.jpeg"
+    },
   ];
   return (
     <>
@@ -91,7 +91,7 @@ function Sekolah() {
         cellPadding="2"
         cellSpacing="2"
       >
-        <thead className="bg-blue-400">
+        <thead className="bg-blue-400 text-white">
         <tr>
           <th width="5%">No</th>
           <th>Nama Orang Tua</th>

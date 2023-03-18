@@ -9,7 +9,7 @@ function Umkm() {
       alamat:
         "Jl. Komplek IPB 1 Rt.004/008 Kelurahan Loji, Kecamatan Bogor Barat Kota Bogor",
       jenis: "Pedagang Kelontongan",
-      image: "/bantuan-0.jpg" 
+      image: "/bantuan-0.jpg"
     },
     {
       nama: "Sri Sobarni",
@@ -17,7 +17,7 @@ function Umkm() {
       alamat:
         "Jl. Menteng, Gg. Pala No.8 Rt.003/002 Kelurahan Menteng, Kecamatan Bogor Barat Kota Bogor",
       jenis: "Pedagang Kue Basah",
-      image: "/bantuan-1.jpg" 
+      image: "/bantuan-1.jpg"
     },
     {
       nama: "A. Sanusi",
@@ -25,7 +25,7 @@ function Umkm() {
       alamat:
         "Jl. Layungsari II Rt.002/018 Kelurahan Empang, Kecamatan Bogor Selatan Kota Bogor",
       jenis: "Pedagang Kelontongan dan Warung Nasi",
-      image: "/bantuan-3.jpg" 
+      image: "/bantuan-3.jpg"
     },
     {
       nama: "Ivana Sasmita",
@@ -33,7 +33,7 @@ function Umkm() {
       alamat:
         "Jl. Pahlawan Rt.002/008 Kelurahan Empang Kecamatan Bogor Selatan Kota Bogor",
       jenis: "Jualan Kopi dan Makanan Ringan",
-      image: "/bantuan-3a.jpg" 
+      image: "/bantuan-3a.jpg"
     },
     {
       nama: "Haryadi",
@@ -41,7 +41,7 @@ function Umkm() {
       alamat:
         "Cimanggu gg. Pasama RT 003 RW 001 Kel Kedung Jaya Kecamatan Tanah Sereal",
       jenis: "Toko Kelontong",
-      image: "/bantuan-5.jpeg" 
+      image: "/bantuan-5.jpeg"
     },
     {
       nama: "Jamil",
@@ -49,7 +49,7 @@ function Umkm() {
       alamat:
         "Kp Seremped RT 002/ RW 006, Kel Mekarwangi Kec Tanah Sareal",
       jenis: "Furniture",
-      image: "/bantuan-6.jpeg" 
+      image: "/bantuan-6.jpeg"
     },
     {
       nama: "Ujang",
@@ -57,7 +57,7 @@ function Umkm() {
       alamat:
         "Panaragan ASPOL RT 04 RW 04, Kelurahanan Panaragan, Kec Bogor Tengah",
       jenis: "UMKM",
-      image: "/bantuan-7.png" 
+      image: "/bantuan-7.png"
     },
     {
       nama: "Rukiyah",
@@ -65,7 +65,7 @@ function Umkm() {
       alamat:
         "Kalibata RT04 RW03 Kelurahan Bantarjati Kec Bogor utara",
       jenis: "Makanan",
-      image: "/bantuan-7.jpeg" 
+      image: "/bantuan-7.jpeg"
     },
     {
       nama: "Suryanto",
@@ -73,7 +73,7 @@ function Umkm() {
       alamat:
         "Ciheuleut RT 02 RW 09 Kel Baranangsiang Kec Bogor Timur",
       jenis: "Kelontong",
-      image: "/bantuan-9.png" 
+      image: "/bantuan-9.png"
     },
     {
       nama: "Yati",
@@ -81,9 +81,9 @@ function Umkm() {
       alamat:
         "Kp Mandala RT 02 RW 02 Kelurahan Ciparigi Kecamatan Bogor Utara",
       jenis: "Kelontong",
-      image: "/bantuan-10.jpeg" 
+      image: "/bantuan-10.jpeg"
     },
-   
+
   ];
   return (
     <>
@@ -92,7 +92,7 @@ function Umkm() {
         cellPadding="2"
         cellSpacing="2"
       >
-        <thead className="bg-blue-400">
+        <thead className="bg-blue-400 text-white">
           <tr>
             <th width="5%">No</th>
             <th>Nama</th>
