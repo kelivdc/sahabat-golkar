@@ -8,7 +8,7 @@ body {
     margin: 0;    
 }
 .tcell {
-    @apply border-b border-white py-2;
+    @apply border-b border-white p-2;
 }
 .rowColor {
     @apply odd:bg-gray-300 even:bg-gray-100

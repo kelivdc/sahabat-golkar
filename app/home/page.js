@@ -9,7 +9,7 @@ function Home() {
   const [password, setPassword] = useState()
   const router = useRouter()
   const clickLogin = () => {
-    if ((email != 'rusli') || (password != 'majubersama')) {
+    if ((email != 'sahabatgolkar') || (password != 'kotabogor')) {
       alert('Username atau password salah')
     } else {
       router.push('/bantuan')
